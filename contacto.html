@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Contact us - Music store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+
+    <h1>contact us</h1>
+    <p>Questions? We're here to help.</p>
+  </header>
+
+  <main class="formulario-contacto"> <!-- segment of forms where information is attached -->
+    <a href="index.html" class="btn-volver" style="font-size: 1em;">Back </a> <!-- button to return to the main menu -->
+    <hr>
+    <form action="#" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message"> Message: </label>
+      <textarea id="message" name="message" rows="3" required></textarea>
+
+      <button type="submit">Send message</button>
+    </form>
+
+    <div class="info-contacto"> <!-- specific information segment -->
+      <h2>You can contact us at: </h2>
+      <p>Email: fallin@music.com</p>
+      <p>Phone: +57 123 456 789</p>
+      <p>Address: Yuyu Hakusho 7342, shibuya</p>
+    </div>
+
+    <div class="disco">
+      <img src="/imagenes/preguntas.jpg" alt="Disco 11" width="500">
+      <h2>Remember, there are no stupid questions.</h2>
+      <h1>Stupid not to ask</h1>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Record Store. All rights reserved.</p>
+  </footer>
+</body>
+</html>

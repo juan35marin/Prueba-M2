@@ -1,0 +1,66 @@
+/* homepage modifications and anything that has the "disco" class. */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+  color: #333;
+}
+
+header { /* takes care of the top of the page. */
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.btn-volver { /* modifications for the button. */
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #222;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.catalogo { /* Modify what is contained in the "catalogo" class. */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* modifications for disc detail. */
+
+.disco { /* Modify what is contained in the "disco" class. */
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 1rem;
+  text-align: center;
+}
+
+.disco img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.disco h2 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
