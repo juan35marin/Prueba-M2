@@ -1,5 +1,10 @@
 # 🎵 Prueba‑M2
 
+Name: Juan Andres Marin Rios 
+Clan: Gosling 
+Email: juan35marin@gmail.com
+ID: 1017236274
+
 Repository with a static website featuring a collection of music records. Includes pages for different disks, section “Who I am ”, contact, styles, and an image folder.
 
 ---
@@ -45,6 +50,17 @@ Prueba‑M2/
 - Implement a real form with back-end (PHP, Node.js, etc.).
 - Optimize images to improve loading times.
 - Automate the generation of disk pages with a static generator (Jekyll, Hugo ...).
+
+---
+
+## 📌 Tools
+
+- Documentación oficial de HTML
+- Documentación oficial de CSS
+- FlexBox
+- Youtube
+- HTML Style Guide
+- Responsive web design
 
 ---
 
