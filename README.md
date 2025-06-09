@@ -55,12 +55,13 @@ Prueba‑M2/
 
 ## 📌 Tools
 
-- Documentación oficial de HTML
-- Documentación oficial de CSS
+- Official HTML documentation.
+- Official CSS documentation.
 - FlexBox
+- Grid
 - Youtube
 - HTML Style Guide
-- Responsive web design
+- W3 Webside 
 
 ---
 
